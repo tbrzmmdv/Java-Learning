@@ -7,6 +7,11 @@ class Solution {
         int check = 1;
         for (int i : nums) {
             check *= i;
+            check=1;
+
+
+
+
         }
 
         for (int j = 0; j < nums.length; j++) {
