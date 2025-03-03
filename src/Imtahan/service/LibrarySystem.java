@@ -66,7 +66,7 @@ public class LibrarySystem {
     }
 
     private static void searchBook() {
-        System.out.println("Axtarmaq istediyiniz kitabin basligini yazin");
+        System.out.println("Axtarmaq istediyiniz kitabin basligini yaz;in");
         String title= scanner.nextLine();
         for (Book book:books){
             if (book.getTitle().equalsIgnoreCase(title)){
