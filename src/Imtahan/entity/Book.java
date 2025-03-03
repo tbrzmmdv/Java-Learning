@@ -64,14 +64,14 @@ public class Book {
         this.avaliableCopies = avaliableCopies;
     }
 
-    boolean borrowBook(){
+    public boolean borrowBook(){
         if (avaliableCopies>0){
             avaliableCopies--;
             return true;
         }
         return false;
     }
-    void returnBooks(){
+    public void returnBooks(){
         avaliableCopies++;
     }
 
