@@ -1,4 +1,7 @@
-package Imtahan;
+package Imtahan.service;
+
+import Imtahan.entity.Book;
+import Imtahan.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

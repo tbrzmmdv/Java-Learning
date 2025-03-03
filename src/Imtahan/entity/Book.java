@@ -1,6 +1,4 @@
-package Imtahan;
-
-import java.util.UUID;
+package Imtahan.entity;
 
 public class Book {
     private static int count =1;
